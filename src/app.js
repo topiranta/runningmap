@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const converter = require('./convertGpxToGeojson.js');
-const port = 3000;
+const port = 80;
 var multer = require('multer');
 
 
