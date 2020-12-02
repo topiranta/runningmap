@@ -48,7 +48,16 @@ var storage = multer.diskStorage({
    
   });
 
-
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`)
 });
+
+/*
+
+Alternatively use this, if you are using other interfaces than just localhost:
+
+app.listen(port, 0.0.0.0, () => {
+  console.log(`Server listening at http://localhost:${port}`)
+});
+
+*/
