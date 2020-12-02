@@ -1,0 +1,18 @@
+{
+  "name": "runningmaphelsinki",
+  "version": "1.0.0",
+  "description": "running map 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Topi Ranta",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/geojson-merge": "^1.1.1",
+    "@mapbox/togeojson": "^0.16.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "multer": "^1.4.2"
+  }
+}
