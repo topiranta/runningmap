@@ -36,6 +36,6 @@ module.exports = {
 
 
 
-        return "rampeli diggaa javascriptii";
+        return "File uploaded";
     }
 }
